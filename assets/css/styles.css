@@ -7,6 +7,33 @@
   height: 600px;              
 }
  */ /* revisar esto para poder poner la imagen de fondo */
+ @media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1.2rem; /* Asegúrate de que el nombre no se desborde en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .img-fluid {
+    height: auto;
+    object-fit: contain;
+  }
+}
+@media (max-width: 767px) {
+  .main-text {
+    padding: 10px;
+    font-size: 20px; /* Ajustar el tamaño del texto */
+  }
+}
+
+footer {
+  margin-top: 20px;
+}
 footer {
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
